@@ -1,10 +1,10 @@
-# 🧠 Reconocimiento de Letras con Regla de Hebb (C++)
+# Reconocimiento de Letras con Regla de Hebb (C++)
 
 Este proyecto implementa una **red neuronal simple basada en la regla de Hebb** para reconocer **tres letras (A, B y C)** representadas como patrones **3x3** usando valores bipolares (**-1 y +1**). El objetivo es mostrar cómo la regla de Hebb puede aprender asociaciones directas entre entradas y salidas.
 
 ---
 
-## 📌 1. **Descripción del Problema**
+## 1. **Descripción del Problema**
 
 La tarea consiste en clasificar letras simples representadas en una cuadrícula 3×3:
 
@@ -23,7 +23,7 @@ La salida se codifica con **2 neuronas**, donde cada combinación bipolar repres
 
 ---
 
-## 🧩 2. **Diseño de la Red**
+## 2. **Diseño de la Red**
 
 * **Entradas:** 9 neuronas (una por pixel del patrón 3×3)
 * **Bias:** 1 neurona adicional
@@ -34,7 +34,7 @@ La red memoriza las correlaciones entre los patrones de entrada y sus salidas es
 
 ---
 
-## 🛠️ 3. **Implementación en C++**
+## 3. **Implementación en C++**
 
 El programa incluye:
 
@@ -46,7 +46,7 @@ El programa incluye:
 * Análisis del rendimiento
 
 ```cpp
-// CÓDIGO COMPLETO EN C++
+// CÓDIGO C++
 #include <iostream>
 #include <vector>
 #include <iomanip>
@@ -127,7 +127,7 @@ int main() {
 
 ---
 
-## 📊 4. **Resultados Esperados**
+## 4. **Resultados Esperados**
 
 * Pesos iniciales = todos ceros
 * Pesos después del entrenamiento = correlaciones aprendidas
@@ -136,7 +136,7 @@ int main() {
 
 ---
 
-## 🧠 5. **Análisis y Conclusiones**
+## 5. **Análisis y Conclusiones**
 
 ### ✔ ¿Qué aprendió la red?
 
@@ -164,8 +164,4 @@ Excelente para patrones simples y bien separados.
 
 ---
 
-## 📎 Autor
-
 **Vargas Angarita Nicolás Antonio**
-
-Si necesitas una versión PDF, Word o explicación línea por línea del código, me dices y te la genero.
